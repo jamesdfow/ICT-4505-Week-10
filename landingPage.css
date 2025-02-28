@@ -6,28 +6,29 @@
 }
 
 body {
-  background-color: #3e442b;
-  color: #d6eeff;
+  background-color: #e9c46a;
+  color: #e76f51;
 }
 
 .navBar {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 5vh;
-  background-color: #6a706278;
+  background-color: #e9c46a;
 }
 
-.myLinks {
+.menu {
   display: flex;
   justify-content: space-evenly;
+  margin: 20px;
   width: fit-content;
 }
 
 a {
   text-decoration: none;
-  color: #d6eeff;
+  color: #e76f51;
 }
 
 .profileCardContainer {
@@ -84,4 +85,28 @@ button {
   height: 80%;
   border-radius: 10px;
   background-color: #d6eeff;
+  border: 1px solid black;
 }
+
+button:hover {
+  background-color: #afc4d4;
+}
+
+/* .menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+} */
+
+/* .bar {
+  background: #e76f51;
+  height: 3px;
+  width: 30px;
+  margin: 5px 0;
+} */
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+
+  }
