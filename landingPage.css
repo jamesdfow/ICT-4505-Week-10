@@ -13,22 +13,19 @@ body {
 .navBar {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 5vh;
-  background-color: #e9c46a;
+  background-color: #c5a75a6a;
 }
-
-.menu {
+.myLinks {
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px;
-  width: fit-content;
 }
 
 a {
   text-decoration: none;
   color: #e76f51;
+  margin: 10px;
 }
 
 .profileCardContainer {
