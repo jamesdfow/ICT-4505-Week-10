@@ -88,22 +88,3 @@ button {
 button:hover {
   background-color: #afc4d4;
 }
-
-/* .menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-} */
-
-/* .bar {
-  background: #e76f51;
-  height: 3px;
-  width: 30px;
-  margin: 5px 0;
-} */
-
-/* Mobile Styles */
-@media screen and (max-width: 768px) {
-  .menu-toggle {
-
-  }
