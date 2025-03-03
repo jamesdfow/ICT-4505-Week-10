@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "sans-serif";
+}
+
+body {
+  background-color: #e9c46a;
+  color: #e76f51;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #c5a75a6a;
+}
+.myLinks {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #e76f51;
+  margin: 10px;
+}
+
+.schoolContainer {
+  /* border: 1px solid black; */
+  height: 90vh;
+  width: auto;
+  margin: 20px;
+}
+
+.imgContainer {
+  /* border: 1px solid black; */
+  background-color: #c5a75a6a;
+  box-shadow: 5px 5px 5px black;
+  height: fit-content;
+  width: auto;
+}
+
+.imgContainer img {
+  height: auto;
+  width: 100%;
+}
+
+.textBox {
+  border: 1px solid black;
+  height: 10vh;
+  margin: 20px;
+}
+
+#uni1,
+#uni2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0px 10px;
+}
