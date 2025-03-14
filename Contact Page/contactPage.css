@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "sans-serif";
+}
+
+body {
+  background-color: #e9c46a;
+  color: #e76f51;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #c5a75a6a;
+}
+.myLinks {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #e76f51;
+  margin: 10px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
