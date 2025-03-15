@@ -22,6 +22,12 @@
   </head>
   <body>
     <div class="navBar">
+      <div
+        class="menu-icon"
+        onclick="toggleMenu()">
+        ☰
+      </div>
+
       <div class="myLinks">
         <a href="/Landing Page/landingPage.html">Home</a>
         <a href="/Education Page/EducationPage.html">Education</a>
@@ -30,10 +36,11 @@
         <a href="/Contact Page/contactPage.html">Contact</a>
       </div>
     </div>
-    <h1>Previous Work Experience</h1>
+    <!-- <h1>Previous Work Experience</h1> -->
     <div class="workExpContainer">
       <div
         class="jobBox"
+        onclick="toggleDetails(this)"
         id="jobName">
         <div
           class="imgContainer"
@@ -42,14 +49,15 @@
             src="../images/Cherry Hills Clubhouse.jpg"
             alt="An image of the Clubhouse at Cherry Hills Country Club from the 18th green." />
         </div>
-        <p>
-        <h2>Cherry Hills Country Club</h2>
-        <h3>Food Server</h3>
-        <h4>May 2024 - Present</h4>
-      </p>
+        <div class="jobDetails">
+          <h2>Cherry Hills Country Club</h2>
+          <h3>Food Server</h3>
+          <h4>May 2024 - Present</h4>
+        </div>
       </div>
       <div
         class="jobBox"
+        onclick="toggleDetails(this)"
         id="jobName">
         <div
           class="imgContainer"
@@ -58,14 +66,15 @@
             src="../images/Lakeview IHC 2022.jpeg"
             alt="#" />
         </div>
-        <p>
-        <h2>Lakeview Hotshots</h2>
-        <h3>Forestry Technician</h3>
-        <h4>Summer 2022</h4>
-      </p>
+        <div class="jobDetails">
+          <h2>Lakeview Hotshots</h2>
+          <h3>Forestry Technician</h3>
+          <h4>Summer 2022</h4>
+        </div>
       </div>
       <div
         class="jobBox"
+        onclick="toggleDetails(this)"
         id="jobName">
         <div
           class="imgContainer"
@@ -74,14 +83,15 @@
             src="../images/Lei Leis.jpg"
             alt="#" />
         </div>
-        <p>
-        <h2>Lei Lei's Bar & Grill</h2>
-        <h3>Food Server</h3>
-        <h4>May 2017 - May 2021</h4>
-      </p>
+        <div class="jobDetails">
+          <h2>Lei Lei's Bar & Grill</h2>
+          <h3>Food Server</h3>
+          <h4>May 2017 - May 2021</h4>
+        </div>
       </div>
       <div
         class="jobBox"
+        onclick="toggleDetails(this)"
         id="jobName">
         <div
           class="imgContainer"
@@ -90,13 +100,13 @@
             src="../images/Army James 2009.PNG"
             alt="#" />
         </div>
-        <p>
-        <h2>U.S. Army</h2>
-        <h3>Squad Leader, Paratrooper, Infantryman</h3>
-        <h4>June 2009 - May 2017</h4>
-        </p>
+        <div class="jobDetails">
+          <h2>U.S. Army</h2>
+          <h3>Squad Leader, Paratrooper, Infantryman</h3>
+          <h4>June 2009 - May 2017</h4>
+        </div>
       </div>
     </div>
-    <!-- <script src="landingPage.js"></script> -->
+    <script src="expPage.js"></script>
   </body>
 </html>
