@@ -47,3 +47,8 @@ h1 {
   margin: 20px;
   height: 20%;
 }
+
+#workPic {
+  border: 1px solid black;
+  height: 100%;
+}
