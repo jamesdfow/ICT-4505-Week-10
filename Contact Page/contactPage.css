@@ -16,8 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  background-color: #c5a75a6a;
 }
+
 .myLinks {
   display: flex;
 }
@@ -67,4 +67,50 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #e76f51;
+  position: absolute;
+  right: 20px;
+}
+
+/* Media Query for Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .navBar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+  }
+
+  .menu-icon {
+    display: block; /* Show the hamburger menu */
+  }
+
+  .myLinks {
+    display: none; /* Hide links initially */
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: rgba(29, 24, 13, 0.793);
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .myLinks a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .myLinks.show {
+    display: flex; /* Show menu when toggled */
+  }
 }
