@@ -18,15 +18,19 @@
     <link
       rel="stylesheet"
       href="contactPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <title>Contact Page</title>
   </head>
   <body>
     <div class="navBar">
       <div
-      class="menu-icon"
-      onclick="toggleMenu()">
-      ☰
-    </div>
+        class="menu-icon"
+        onclick="toggleMenu()">
+        ☰
+      </div>
       <div class="myLinks">
         <a href="/Landing Page/landingPage.html">Home</a>
         <a href="/Education Page/EducationPage.html">Education</a>
@@ -36,25 +40,12 @@
       </div>
     </div>
     <h1>Contact</h1>
-    <div class="container">
-      <form action="action_page.php">
-    
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-
-    
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-    
-      </form>
+    <div class="buttonSection">
+      <button type="button"><a href="">LinkedIn</a></button>
+      <button type="button">
+        <a href="https://github.com/jamesdfow">GitHub
+      </button></a>
     </div>
-    
     <script src="contactPage.js"></script>
   </body>
 </html>
